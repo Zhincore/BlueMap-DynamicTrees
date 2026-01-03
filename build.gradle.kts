@@ -17,6 +17,8 @@ dependencies {
     implementation("de.bluecolored:bluemap-common:5.15")
     implementation("de.bluecolored:bluemap-api:2.7.7")
 
+    compileOnly("com.github.Uiniel:BlueMapModelLoaders:3119e9b")
+
     compileOnly("org.projectlombok:lombok:1.18.30")
     annotationProcessor("org.projectlombok:lombok:1.18.30")
 }
